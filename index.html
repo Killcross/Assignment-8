@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vision Furniture</title>
+	<link rel="stylesheet" href="style2.css">
+</head>
+<body>
+	<h1>Vision Furniture Checkout</h1>
+	<form id="orderForm">
+		<table>
+			<thead>
+				<tr>
+					<th>Item</th>
+					<th>Quantity</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Chair ($25)</td>
+					<td><input type="number" name="chairQty" min="0" value="0"></td>
+				</tr>
+				<tr>
+					<td>Table ($100)</td>
+					<td><input type="number" name="tableQty" min="0" value="0"></td>
+				</tr>
+				<tr>
+					<td>Sofa ($300)</td>
+					<td><input type="number" name="sofaQty" min="0" value="0"></td>
+				</tr>
+				<tr>
+					<td>Bed ($800)</td>
+					<td><input type="number" name="bedQty" min="0" value="0"></td>
+				</tr>
+				<tr>
+					<td>Shelf ($40)</td>
+					<td><input type="number" name="shelfQty" min="0" value="0"></td>
+				</tr>
+				<tr>
+					<td>Cabinet ($80)</td>
+					<td><input type="number" name="cabinetQty" min="0" value="0"></td>
+				</tr>
+				<tr>
+					<td>Desk ($150)</td>
+					<td><input type="number" name="deskQty" min="0" value="0"></td>
+				</tr>
+				<tr>
+					<td>Dresser ($200)</td>
+					<td><input type="number" name="dresserQty" min="0" value="0"></td>
+				</tr>
+				<tr>
+					<td>Bookcase ($75)</td>
+					<td><input type="number" name="bookcaseQty" min="0" value="0"></td>
+				</tr>
+				<tr>
+					<td>Couch ($500)</td>
+					<td><input type="number" name="couchQty" min="0" value="0"></td>
+				</tr>
+			</tbody>
+		</table>
+		<button type="submit">Submit Order</button>
+	</form>
+	<div id="orderSummary"></div>
+	<script src="order.js"></script>
+</body>
+</html>
